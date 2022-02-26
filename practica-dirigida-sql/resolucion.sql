@@ -1,5 +1,7 @@
+```
 /* Ejercicio 1: Muestre el nombre, fecha de contratación, salario, nombre de departamento y 
    nombre del rol de todos los empleados cuyo salario se encuentre en el intervalo [4500, 15000>. */
+```
 
 select e.first_name, e.hire_date, e.salary, d.department_name, j.job_title
 from employees e 
